@@ -1,0 +1,25 @@
+V14 – GOOGLE GÖRÜNÜRLÜK
+
+Ana kısa hedefler:
+- Muhasebe
+- Muhasebe Hizmetleri
+- Finans
+- Finansal Hizmetler
+- Finans Elemanı (arama niyeti olarak izlenecek; hizmet adı olarak kullanılmadı)
+- Muhasebe ve Finans
+- Vergi Süreçleri
+- Cari Hesap
+- Gelir Gider Takibi
+- Fatura Takibi
+- Küçükçekmece Muhasebe
+- Şişli Muhasebe
+- Mecidiyeköy Finans
+
+Yapılanlar:
+- SEO başlığı kısa ve güçlü hale getirildi.
+- Meta açıklaması kısa müşteri aramalarına göre düzenlendi.
+- Tasarım bozulmadan 'Muhasebe & Finansal Hizmetler' bölümü eklendi.
+- Yerel aramalar doğal metin içinde kullanıldı.
+- Yapılandırılmış veri güncellendi.
+- SMMM/YMM yetkisi gerektiren hizmetlerle karışmaması için sınır korundu.
+- Gereksiz anahtar kelime doldurma yapılmadı.

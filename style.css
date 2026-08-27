@@ -285,3 +285,12 @@ footer{background:#051522;border-top:1px solid #46391e;padding:20px 0;text-align
   .contact-row .label{white-space:normal}
   .feature-strip{grid-template-columns:1fr}
 }
+
+/* V14 - Google Görünürlük: kısa ve doğal arama ifadeleri */
+.search-services{background:#eef3f7;color:#102033;padding:68px 0}
+.search-services h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.08;letter-spacing:-.035em;margin:10px 0 12px}
+.keyword-services{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 18px}
+.keyword-services a{display:inline-block;text-decoration:none;color:#0b2946;background:#fff;border:1px solid #d6e0e8;border-radius:999px;padding:10px 15px;font-weight:800;font-size:13px}
+.keyword-services a:hover{border-color:#b07b20}
+.local-seo-line{margin:0;color:#5c7082;font-size:14px}
+@media(max-width:760px){.search-services{padding:50px 0}.keyword-services{gap:8px}.keyword-services a{font-size:12px;padding:9px 12px}}
