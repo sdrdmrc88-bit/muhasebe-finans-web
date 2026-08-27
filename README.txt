@@ -1,22 +1,10 @@
-FINAL V8
+FINAL V12
+Onaylanan lacivert-altın tasarım.
 
-Site adı:
-Home Office Muhasebe, Finans ve Vergi Süreçleri Destek Hizmetleri
+İletişim:
+Müşteri: GSM & WhatsApp Hattı: ∞ +90 (553) 031 33 46
+Çağrı Merkezi - GSM Hattı: ∞ +90 (551) 462 33 46
+Birim Destek Mail: ∞ sdrdmrc88@gmail.com
+Müşteri Destek Mail Hattı: ∞ serdar_demirci_88@hotmail.com
 
-Kurumsal Mail:
-sdrdmrc88@gmail.com
-
-Alternatif Mail:
-serdar_demirci_88@hotmail.com
-
-Kurumsal WhatsApp & Telefon:
-+90 553 031 33 46
-
-Alternatif Telefon:
-+90 551 462 33 46
-
-Çalışma şekli:
-Online Office olarak hizmet verilmektedir. Görüşmeler online veya randevu ile gerçekleştirilmektedir.
-
-Not:
-Açık ev adresi paylaşılmamaktadır.
+Masaüstünde mail adresleri tek satırda kalacak şekilde düzenlenmiştir.

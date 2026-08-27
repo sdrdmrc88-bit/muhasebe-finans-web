@@ -91,3 +91,197 @@ footer{background:#051522;border-top:1px solid #46391e;padding:20px 0;text-align
   .trust-bar{flex-wrap:wrap;gap:10px}
   .trust-bar strong{font-size:17px}
 }
+
+
+/* ================================
+   FINAL V12 — NAVY / GOLD HERO
+   ================================ */
+:root{
+  --navy-950:#041321;
+  --navy-900:#06192b;
+  --navy-850:#07213a;
+  --navy-800:#0a2b4a;
+  --gold:#e7aa2d;
+  --gold-soft:#f0bc4f;
+  --line:rgba(231,170,45,.42);
+  --text:#f3f6f9;
+  --muted:#b9c7d4;
+}
+
+.topbar{
+  background:linear-gradient(90deg,#041321,#06192b);
+  border-bottom:1px solid rgba(231,170,45,.45);
+}
+.home-script{color:var(--gold)}
+.request-btn{
+  background:linear-gradient(135deg,#f3c14e,#dda126);
+  color:#081521!important;
+  box-shadow:0 7px 20px rgba(231,170,45,.17);
+}
+
+.hero{
+  padding:48px 0 34px;
+  background:
+    radial-gradient(circle at 76% 22%, rgba(16,73,112,.28), transparent 28%),
+    linear-gradient(135deg,#041522 0%,#062039 52%,#041522 100%);
+}
+.hero-grid{
+  grid-template-columns:.88fr 1.30fr .92fr;
+  gap:22px;
+  align-items:stretch;
+}
+.hero-copy{
+  align-self:center;
+  padding:12px 8px 12px 0;
+}
+.hero-copy h1{
+  font-size:clamp(2.5rem,4vw,4.25rem);
+  max-width:520px;
+}
+.hero .eyebrow{color:var(--gold)}
+.hero .lead{
+  max-width:430px;
+  color:#c4d0db;
+  line-height:1.8;
+}
+
+.contact-card{
+  padding:20px 22px 14px;
+  border-radius:18px;
+  border:1px solid rgba(231,170,45,.58);
+  background:linear-gradient(145deg,rgba(4,21,36,.98),rgba(7,37,63,.98));
+  box-shadow:0 24px 55px rgba(0,0,0,.34);
+  min-width:0;
+}
+.contact-head{
+  display:flex;
+  gap:14px;
+  align-items:center;
+  padding-bottom:17px;
+  border-bottom:1px solid rgba(201,214,225,.28);
+}
+.contact-head h2{
+  font-size:clamp(1.2rem,1.65vw,1.65rem);
+  white-space:nowrap;
+}
+.contact-head p{
+  max-width:520px;
+  line-height:1.45;
+}
+.head-icon{
+  width:54px;height:54px;flex:0 0 54px;
+  border-color:var(--gold);
+  color:var(--gold);
+  background:rgba(231,170,45,.06);
+}
+
+.contact-row{
+  display:grid;
+  grid-template-columns:48px minmax(205px,1.18fr) 28px minmax(0,1fr);
+  gap:12px;
+  align-items:center;
+  min-height:80px;
+  border-bottom:1px solid rgba(173,193,209,.25);
+}
+.contact-row:last-child{border-bottom:0}
+.icon-circle{
+  width:44px;height:44px;
+  background:#fff;color:#06192b;
+  font-size:20px;
+}
+.contact-row .label{
+  color:var(--gold);
+  font-weight:800;
+  font-size:14px;
+  line-height:1.28;
+  white-space:nowrap;
+}
+.contact-row .sep{
+  color:var(--gold);
+  font-size:24px;
+  line-height:1;
+  font-weight:900;
+  text-align:center;
+}
+.contact-row a{
+  display:block;
+  color:#fff;
+  font-weight:700;
+  font-size:14px;
+  line-height:1.25;
+  text-decoration:none;
+  white-space:nowrap;
+  word-break:normal;
+  overflow-wrap:normal;
+  min-width:0;
+}
+.contact-row .mail-link{
+  font-size:13.5px;
+  letter-spacing:-.015em;
+}
+
+.visual-card{
+  min-height:480px;
+  border-radius:18px;
+  border:1px solid rgba(231,170,45,.5);
+  background:#051829;
+}
+.visual-card img{
+  object-fit:cover;
+  object-position:center;
+}
+
+.feature-strip{
+  margin-top:24px;
+  border:1px solid rgba(231,170,45,.5);
+  background:linear-gradient(90deg,#06182a,#08233d,#06182a);
+  box-shadow:0 16px 36px rgba(0,0,0,.15);
+}
+.feature{
+  border-right:1px solid rgba(231,170,45,.32);
+}
+.ficon{
+  border-color:var(--gold);
+  color:var(--gold);
+}
+
+/* desktop fit: keep contact details on one line */
+@media(min-width:1180px){
+  .wrap{width:min(1370px,94%)}
+  .contact-row{
+    grid-template-columns:48px minmax(200px,.96fr) 28px minmax(200px,1.05fr);
+  }
+  .contact-row .mail-link{font-size:13px}
+}
+
+/* medium screens */
+@media(max-width:1179px){
+  .hero-grid{grid-template-columns:1fr 1fr}
+  .hero-copy{grid-column:1/-1}
+  .contact-row{
+    grid-template-columns:44px minmax(190px,1fr) 26px minmax(0,1fr);
+  }
+  .contact-row a{font-size:13px}
+  .contact-row .mail-link{font-size:12.5px}
+}
+
+/* mobile */
+@media(max-width:760px){
+  .hero-grid{grid-template-columns:1fr}
+  .visual-card{min-height:360px}
+  .contact-head h2{white-space:normal}
+  .contact-row{
+    grid-template-columns:40px 1fr;
+    min-height:auto;
+    padding:14px 0;
+    gap:6px 10px;
+  }
+  .contact-row .sep{display:none}
+  .contact-row a{
+    grid-column:2;
+    white-space:normal;
+    font-size:13px;
+  }
+  .contact-row .label{white-space:normal}
+  .feature-strip{grid-template-columns:1fr}
+}
