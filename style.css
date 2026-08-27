@@ -78,7 +78,14 @@ footer{background:#051522;border-top:1px solid #46391e;padding:20px 0;text-align
   .nav nav a:not(.request-btn){display:none}
 }
 @media(max-width:760px){
-  .brand-text{display:none}
+  .brand{gap:10px;align-items:center}
+  .brand-text{
+    display:block;
+    font-size:10px;
+    line-height:1.15;
+    padding-left:10px;
+    max-width:165px;
+  }
   .home-script{font-size:28px}
   .hero-grid,.why-grid,.about-grid{grid-template-columns:1fr}
   .visual-card{min-height:380px}

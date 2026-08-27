@@ -1,0 +1,9 @@
+V15 – MOBİL BAŞLIK DÜZELTME
+
+Yapılan işlem:
+- Telefonda gizlenen “Muhasebe, Finans ve Vergi Süreçleri Destek Hizmetleri” başlığı görünür hale getirildi.
+- Mobil ekranda yazı boyutu küçültülerek Home Office başlığının yanında düzenli görünmesi sağlandı.
+- Masaüstü görünümü değiştirilmedi.
+
+Site:
+https://sdrdmrc88-bit.github.io/muhasebe-finans-web/
