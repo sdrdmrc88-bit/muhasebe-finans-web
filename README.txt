@@ -1,10 +1,14 @@
-FINAL V12
-Onaylanan lacivert-altın tasarım.
+FINAL V13 SEO
 
-İletişim:
-Müşteri: GSM & WhatsApp Hattı: ∞ +90 (553) 031 33 46
-Çağrı Merkezi - GSM Hattı: ∞ +90 (551) 462 33 46
-Birim Destek Mail: ∞ sdrdmrc88@gmail.com
-Müşteri Destek Mail Hattı: ∞ serdar_demirci_88@hotmail.com
+Eklenenler:
+- Güçlendirilmiş SEO başlığı ve meta açıklaması
+- Canonical URL
+- Open Graph ve Twitter paylaşım etiketleri
+- WebSite yapılandırılmış veri
+- Service yapılandırılmış veri
+- FAQPage yapılandırılmış veri
+- Güncellenmiş sitemap.xml
+- Güncellenmiş robots.txt
+- Görsel alt metni ve erişilebilir menü etiketi
 
-Masaüstünde mail adresleri tek satırda kalacak şekilde düzenlenmiştir.
+Google Search Console doğrulama dosyası varsa korunmuştur.
